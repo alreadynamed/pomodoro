@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
+  color: white;
+  background: rgba(226, 36, 48, 0.8);
+}
+
+.pomodoro {
+  position: relative;
+  width: 30%;
+  height: 350px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.block {
+  position: absolute;
+  margin-top: 200px;
+  width: 350px;
+  height: 350px;
+  left: 18%;
+  top: 12%;
+  border-radius: 50%;
+  background: #bc2f38;
+}
+
+.timer {
+  font-size: 5rem;
+  text-align: center;
+}
+
+.start {
+  width: 100px;
+  height: 40px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  background: rgba(111, 11, 17, 0.8);
+  color: white;
+
+  &:hover {
+    background: rgba(111, 11, 18, 0.555);
+  }
+}
+
+.stop {
+  width: 60px;
+  height: 40px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  background: rgba(239, 205, 207, 0.8);
+
+  &:hover {
+  }
+}
+
+.break {
+  width: 100px;
+  height: 40px;
+  font-size: 1rem;
+}
+
+.number {
+  font-size: 20px;
+  padding-bottom: 10px;
+}
